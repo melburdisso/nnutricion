@@ -1,0 +1,71 @@
+@import "colors";
+@import "typography";
+@import "animation";
+
+// -------------------------------------------------------------GENERAL
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url("../images/wallpaper.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: $first_font;
+    color: $black_color;
+}
+.mt-10{
+    margin-top: 135px;
+}
+// ------------------------------------------------------------HEADER NAVEGADOR
+header{
+    div{
+        div{
+            p{
+                color: $green2_color;
+            }
+        }
+    }
+    div{
+        nav{
+            div{
+                div{
+                    ul{
+                        li{
+                            a{
+                                background-color: $white_color;
+                                &:hover{
+                                    background-color: $green_color;
+                                    font-size: large;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.navbar{
+    position:fixed;
+    z-index: 2;
+}
+// -----------------------------------------------------------FOOTER
+footer{
+    section{
+        div{
+            a{
+                .icon_flotante{
+                    position: fixed;
+                    z-index: 2;
+                    width: 50px;
+                    height: 50px;
+                    bottom: 50px;
+                    right: 50px;
+                }
+            
+            }
+        }
+    }
+}
+

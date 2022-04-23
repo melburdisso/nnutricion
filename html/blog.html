@@ -14,7 +14,7 @@
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <header>
     <div class="container mt-1"><!--Frase y Logo-->
@@ -23,9 +23,9 @@
         </div>
     </div>
     <div> <!--menu flotante-->
-        <nav class="navbar   navbar-expand-lg   navbar-light   container   shadow-lg   bg-body   rounded   rounded-pill   ms-3   me-3   p-3   border-bottom border-end    fw-bold">
+        <nav class="navbar   navbar-expand-lg   navbar-light   container-fluid  shadow-lg   bg-body   rounded   rounded-pill   border-bottom border-end    fw-bold">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"><img src="../images/logopng.png" width="150" alt="logo"></a>
+                <a class="navbar-brand" href="../index.html"><img src="../images/logopng.png" width="200" alt="logo"></a>
                 <!-- hamburger -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -40,17 +40,39 @@
                                 <li><a class="dropdown-item" href="servicios.html">Planes alimentarios</a></li>
                                 <li><a class="dropdown-item" href="servicios.html">Celiaquia</a></li>
                                 <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="servicios.html">Online y precencial</a></li>
+                                <li><a class="dropdown-item" href="servicios.html">Atención online y precencial</a></li>
                             </ul>
                         </li>
                         <li class="nav-item"><a class="nav-link active rounded-pill me-2" href="blog.html">Blog</a></li>
-                        <li class="nav-item"><a class="nav-link rounded-pill me-2" href="contacto.html">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link rounded-pill me-2 bg-verde fs-5 text"  href="contacto.html">Contacto</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </div>
 </header>
+<main class="mt-10">
+    <div class="row ms-3 justify-content-center ">
+        <div class="col-md-3  bg-verde border ms-3 me-3 rounded shadow mb-3">
+            <img src="../images/blog1.jpg" class="img-fluid text-center rounded" width="" alt="">
+            <h4 class="text-center">Alimentación saludable vs. Restricciones</h4>
+            <p class="justify-content-center d-block">La alimentación proporciona todos los nutrientes que el cuerpo necesita para mantener un buen funcionamiento del organismo, conservar o restablecer la salud, minimizar el riesgo de enfermedades, garantizar la reproducción, gestación, lactancia, desarrollo y crecimiento adecuado.  Para lograrlo, es necesario el consumo diario de frutas, verduras, cereales integrales, legumbres, leche, carnes, aves, pescado y aceite vegetal en cantidades adecuadas 🌱 Si lo cumplimos, tendremos una alimentación saludable. Pero, ante todo, la alimentación se debe disfrutar, debe causar placer. Al categorizar un alimento como prohibido, lo convertimos en objeto de deseo. En ese sentido, no es lógico eliminarlo completamente de nuestra dieta. Las restricciones son insostenibles en el tiempo, generan ansiedad y mal humor. ¡No existen alimentos prohibidos, sino cantidades con frecuencias permitidas! ⚖</p>
+            <p class="card-text  text-center"><a ref="#texto-oculto1" class="btn btn-dark" value="">Más info</a></p>
+        </div>
+        <div class="col-md-3  bg-verde border ms-3 me-3 rounded  shadow">
+            <img src="../images/blog2.jpg" class="img-fluid text-center rounded" width="" alt="">
+            <h1 class="text-center">Dietas Extremas</h1>
+            <p class="text-center">Las dietas extremas o con muchas restricciones pueden ser efectivas a corto plazo pero no son sostenibles en el tiempo 🚫 Te propongo en cambio armar un plan siguiendo la regla del 80/20, donde el 80% de los alimentos que consumas sean saludables y con el menor proceso posible 🥗 y el 20% restante los alimentos que te gustan y que generalmente están excluidos por ser menos nutritivos 🍔 No hay alimentos prohibidos, hay control pero también hay PLACER. Una alimentación equilibrada y flexible es ideal para lograr un balance y un estilo de vida saludable, tanto en lo físico como en lo mental. ¿Querés programar una consulta? ¡Escribime! </p>
+            <p class="card-text  text-center"><a ref="#texto-oculto1" class="btn btn-dark" value="">Más info</a></p>
+        </div>
+        <div class="col-md-3     bg-verde border ms-3 rounded  shadow">
+            <img src="../images/blog3.jpg" class="img-fluid text-center rounded" width="" alt="">
+            <h1 class="text-center">¿Cómo podemos reducir nuestro consumo de azúcar?</h1>
+            <p class="text-center">🍬 Seguramente lo primero que se nos viene a la mente es el edulcorante que encontramos en diferentes formatos. Pueden ser naturales o artificiales, estar reducidos o directamente no tener calorías. Pero a diferencia de lo que se cree, su consumo no se asocia a la pérdida de peso. Algunos tienen el potencial de endulzar más que el azúcar, acostumbrando al paladar a un sabor excesivamente dulce, sin aportar beneficios ni nutrientes ❗ Una alternativa más natural puede ser utilizar miel o directamente ir disminuyendo su uso para disfrutar del dulzor y sabor real de los alimentos 🍎</p>
+            <p class="card-text  text-center"><a ref="#texto-oculto1" class="btn btn-dark" value="">Más info</a></p>
+        </div>
+    </div>
+</main>
 <main class="container  mt-10">
     <section class="row  p-3 mb-2 bg-success bg-grey bg-opacity-10 text-dark  rounded">
         <div class="col-md-12">
@@ -116,7 +138,7 @@
             <a href="https://wa.me/123456789" target=_blank><img class="icon_flotante" src="../images/whatsappverde.png" alt="whatsapp"></a>
         </div>
         <div class="row  col-md-12  mt-5 mb-3"> <!-- icono de ir al incio -->
-            <p class="text-center margin"><a class="text-dark  shadow p-3 mb-5 bg-body rounded  rounded-pill  text-decoration-none" href="/index.html">Ir al inicio</a></p>
+            <p class="text-center margin"><a class="text-dark  shadow p-3 mb-5 bg-body rounded  rounded-pill  text-decoration-none" href="../index.html">Ir al inicio</a></p>
         </div>
         <!-- Option 1: Bootstrap Bundle with Popper -->
         <script src="../js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

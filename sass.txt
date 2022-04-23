@@ -14,7 +14,7 @@ Instalando SASS
 ===============
 3. Ejecutar: npm init (En la consola de comandos o Terminal de Visual Code, darle ENTER a todas las preguntas y escribir "yes" al final).
 4. Instalar Node-SASS. Ejecutar: npm install -D node-sass nodemon
-5. Crear la Carpeta "css" y dentro de esa carpeta, el archivo "estilos.css"
+5. Crear la Carpeta "css" y dentro de esa carpeta, el archivo "estilos.css"  ( ver bien de poner el nombre que te corresponda , ej styles o estilos , etc)
 6. Crear la Carpeta "scss" y dentro de esa carpeta, el archivo "estilos.scss"
 7. Editar el archivo package.json y agregar estas dos líneas siguientes, en la sección de "scripts": (poner una copa antes de pegar las siguientes dos lineas):
 

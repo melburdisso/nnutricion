@@ -14,8 +14,11 @@ body{
     font-family: $first_font;
     color: $black_color;
 }
+
+// operacion
+$margin10: 10px;
 .mt-10{
-    margin-top: 135px;
+    margin-top: $margin10*13;
 }
 // ------------------------------------------------------------HEADER NAVEGADOR
 header{
@@ -32,10 +35,10 @@ header{
                 div{
                     ul{
                         li{
+                            letter-spacing: 1px;
                             a{
                                 background-color: $white_color;
                                 &:hover{
-                                    background-color: $green_color;
                                     font-size: large;
                                 }
                             }
@@ -68,4 +71,18 @@ footer{
         }
     }
 }
-
+// sobremi.html
+main{
+    section{
+        div{
+            h5{
+                margin-bottom: 5%;
+                word-spacing: 5px;
+            }
+            h3{
+                text-transform: uppercase;
+                margin-bottom: 5%;
+            }
+        }
+    }
+}

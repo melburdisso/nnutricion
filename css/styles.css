@@ -16,16 +16,17 @@ body {
   color: #000000; }
 
 .mt-10 {
-  margin-top: 135px; }
+  margin-top: 130px; }
 
 header div div p {
   color: #7ba48a; }
 
-header div nav div div ul li a {
-  background-color: #ffffff; }
-  header div nav div div ul li a:hover {
-    background-color: #B7F8CE;
-    font-size: large; }
+header div nav div div ul li {
+  letter-spacing: 1px; }
+  header div nav div div ul li a {
+    background-color: #ffffff; }
+    header div nav div div ul li a:hover {
+      font-size: large; }
 
 .navbar {
   position: fixed;
@@ -38,3 +39,11 @@ footer section div a .icon_flotante {
   height: 50px;
   bottom: 50px;
   right: 50px; }
+
+main section div h5 {
+  margin-bottom: 5%;
+  word-spacing: 5px; }
+
+main section div h3 {
+  text-transform: uppercase;
+  margin-bottom: 5%; }

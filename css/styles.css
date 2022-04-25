@@ -8,10 +8,6 @@
   animation-duration: 3s;
   animation-delay: 0.9s; }
 
-* {
-  margin: 0%;
-  padding: 0%; }
-
 body {
   background-image: url("../images/wallpaper.png");
   background-repeat: no-repeat;

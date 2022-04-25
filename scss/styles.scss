@@ -3,10 +3,11 @@
 @import "animation";
 
 // -------------------------------------------------------------GENERAL
-*{
-    margin: 0%;
-    padding: 0%;
-}
+@mixin reset-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
 body{
     background-image: url("../images/wallpaper.png");
     background-repeat: no-repeat;
@@ -68,4 +69,7 @@ footer{
         }
     }
 }
+// inicio
+$fondo: black;
+$color: violet;
 
